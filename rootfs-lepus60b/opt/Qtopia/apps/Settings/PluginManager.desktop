@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=pluginmanager
+Icon=PluginManager
+Name=Plugin Manager
+Name[ja]=プラグインマネージャ
+CanFastload=0

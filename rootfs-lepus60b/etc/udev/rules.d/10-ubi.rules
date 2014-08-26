@@ -1,0 +1,1 @@
+KERNEL=="ubi*_*", ACTION=="remove", OPTIONS+="ignore_device"

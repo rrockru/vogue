@@ -1,0 +1,7 @@
+#export PS1='# '
+#export PS1=\[\u@ingenic\]\$
+PS1='[\u@\h \W]\# '
+
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin
+export LD_LIBRARY_PATH=/lib:/usr/local/lib
+export SDL_NOMOUSE=1

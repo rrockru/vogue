@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=appservices
+Icon=AppServices
+Name=Application Services
+Name[ja]=アプリケーションサービス
+CanFastload=0

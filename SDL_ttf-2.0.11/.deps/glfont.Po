@@ -1,0 +1,197 @@
+glfont.o glfont.o: glfont.c \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/stdlib.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/features.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/sys/cdefs.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/gnu/stubs.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/include/stddef.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/waitflags.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/waitstatus.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/endian.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/endian.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/xlocale.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/sys/types.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/types.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/wordsize.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/typesizes.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/time.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/sys/select.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/select.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/sigset.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/time.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/sys/sysmacros.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/pthreadtypes.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/sched.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/alloca.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/stdio.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/libio.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/_G_config.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/wchar.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/wchar.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/gconv.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/include/stdarg.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/stdio_lim.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/sys_errlist.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/stdio.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/string.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/string.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/string2.h \
+  /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h \
+  /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h \
+  /usr/include/SDL/SDL_platform.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/strings.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/inttypes.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/stdint.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/ctype.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/iconv.h \
+  /usr/include/SDL/begin_code.h /usr/include/SDL/close_code.h \
+  /usr/include/SDL/SDL_audio.h /usr/include/SDL/SDL_error.h \
+  /usr/include/SDL/SDL_endian.h /usr/include/SDL/SDL_mutex.h \
+  /usr/include/SDL/SDL_thread.h /usr/include/SDL/SDL_rwops.h \
+  /usr/include/SDL/SDL_cdrom.h /usr/include/SDL/SDL_cpuinfo.h \
+  /usr/include/SDL/SDL_events.h /usr/include/SDL/SDL_active.h \
+  /usr/include/SDL/SDL_keyboard.h /usr/include/SDL/SDL_keysym.h \
+  /usr/include/SDL/SDL_mouse.h /usr/include/SDL/SDL_video.h \
+  /usr/include/SDL/SDL_joystick.h /usr/include/SDL/SDL_quit.h \
+  /usr/include/SDL/SDL_loadso.h /usr/include/SDL/SDL_timer.h \
+  /usr/include/SDL/SDL_version.h SDL_ttf.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/stdlib.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/features.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/sys/cdefs.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/gnu/stubs.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/include/stddef.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/waitflags.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/waitstatus.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/endian.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/endian.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/xlocale.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/sys/types.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/types.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/wordsize.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/typesizes.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/time.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/sys/select.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/select.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/sigset.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/time.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/sys/sysmacros.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/pthreadtypes.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/sched.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/alloca.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/stdio.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/libio.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/_G_config.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/wchar.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/wchar.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/gconv.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/include/stdarg.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/stdio_lim.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/sys_errlist.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/stdio.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/string.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/string.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/bits/string2.h:
+
+/usr/include/SDL/SDL.h:
+
+/usr/include/SDL/SDL_main.h:
+
+/usr/include/SDL/SDL_stdinc.h:
+
+/usr/include/SDL/SDL_config.h:
+
+/usr/include/SDL/SDL_platform.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/strings.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/inttypes.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/stdint.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/ctype.h:
+
+/opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/../../../../mipsel-linux/include/iconv.h:
+
+/usr/include/SDL/begin_code.h:
+
+/usr/include/SDL/close_code.h:
+
+/usr/include/SDL/SDL_audio.h:
+
+/usr/include/SDL/SDL_error.h:
+
+/usr/include/SDL/SDL_endian.h:
+
+/usr/include/SDL/SDL_mutex.h:
+
+/usr/include/SDL/SDL_thread.h:
+
+/usr/include/SDL/SDL_rwops.h:
+
+/usr/include/SDL/SDL_cdrom.h:
+
+/usr/include/SDL/SDL_cpuinfo.h:
+
+/usr/include/SDL/SDL_events.h:
+
+/usr/include/SDL/SDL_active.h:
+
+/usr/include/SDL/SDL_keyboard.h:
+
+/usr/include/SDL/SDL_keysym.h:
+
+/usr/include/SDL/SDL_mouse.h:
+
+/usr/include/SDL/SDL_video.h:
+
+/usr/include/SDL/SDL_joystick.h:
+
+/usr/include/SDL/SDL_quit.h:
+
+/usr/include/SDL/SDL_loadso.h:
+
+/usr/include/SDL/SDL_timer.h:
+
+/usr/include/SDL/SDL_version.h:
+
+SDL_ttf.h:
+
+/usr/include/SDL/begin_code.h:
+
+/usr/include/SDL/close_code.h:

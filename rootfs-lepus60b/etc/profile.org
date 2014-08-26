@@ -1,0 +1,12 @@
+# /etc/profile: system-wide .profile file for the Bourne shells
+
+echo
+echo -n "Processing /etc/profile... "
+# no-op
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib
+export PS1='# '
+
+echo "Done"
+echo
+

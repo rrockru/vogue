@@ -1,0 +1,11 @@
+The following files are part of the Bitsream Vera font family, and can be found in the wgui/fonts directory:
+Vera.ttf
+VeraBd.ttf
+VeraBI.ttf
+VeraIt.ttf
+VeraMoBd.ttf
+VeraMoBI.ttf
+VeraMoIt.ttf
+VeraMono.ttf
+VeraSe.ttf
+VeraSeBd.ttf

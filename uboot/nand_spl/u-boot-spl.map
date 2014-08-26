@@ -1,0 +1,251 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+NAND_ADDRPORT       0x4               nand_boot_jz4750.o
+NAND_COMMPORT       0x4               nand_boot_jz4750.o
+
+Discarded input sections
+
+ .reginfo       0x0000000000000000        0x0 nand_boot_jz4750.o
+ .reginfo       0x0000000000000000        0x0 cpu.o
+ .reginfo       0x0000000000000000        0x0 jz4750.o
+ .reginfo       0x0000000000000000        0x0 jz_serial.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x4)
+
+.text           0x0000000080000000     0x14f0
+ *(.text)
+ .text          0x0000000080000000       0x50 start.o
+                0x0000000080000000                _start
+ .text          0x0000000080000050      0x8f0 nand_boot_jz4750.o
+                0x0000000080000084                spl_boot
+ .text          0x0000000080000940       0xa0 cpu.o
+                0x00000000800009a0                flush_cache_all
+                0x0000000080000940                flush_icache_all
+                0x000000008000097c                flush_dcache_all
+ .text          0x00000000800009e0      0x850 jz4750.o
+                0x0000000080000c4c                pll_add_test
+                0x0000000080001004                sdram_init
+                0x0000000080000ecc                sdram_add_test
+                0x0000000080000d24                calc_clocks_add_test
+                0x00000000800009e0                pll_init
+ .text          0x0000000080001230      0x2c0 jz_serial.o
+                0x0000000080001230                serial_setbrg
+                0x0000000080001454                serial_put_hex
+                0x00000000800013fc                serial_tstc
+                0x0000000080001334                serial_putc
+                0x00000000800012bc                serial_init
+                0x00000000800013a8                serial_puts
+                0x0000000080001410                serial_getc
+                0x00000000800014f0                . = ALIGN (0x4)
+
+.rodata         0x00000000800014f0      0x1d0
+ *(.rodata)
+ .rodata        0x00000000800014f0       0x30 nand_boot_jz4750.o
+ .rodata        0x0000000080001520      0x1a0 jz4750.o
+
+.reginfo        0x00000000800016c0       0x18
+ .reginfo       0x00000000800016c0       0x18 start.o
+
+.rodata.str1.4  0x00000000800016d8       0x4c
+ .rodata.str1.4
+                0x00000000800016d8       0x4c nand_boot_jz4750.o
+
+.rodata.cst4    0x0000000080001724       0x10
+ .rodata.cst4   0x0000000080001724       0x10 jz4750.o
+                0x0000000080001734                . = ALIGN (0x4)
+
+.data           0x0000000080001740       0x20
+ *(.data)
+ .data          0x0000000080001740        0x0 start.o
+ .data          0x0000000080001740       0x20 nand_boot_jz4750.o
+ .data          0x0000000080001760        0x0 cpu.o
+ .data          0x0000000080001760        0x0 jz4750.o
+ .data          0x0000000080001760        0x0 jz_serial.o
+                0x0000000080001760                . = ALIGN (0x4)
+
+.sdata
+ *(.sdata)
+ *(.sdata)
+                0x0000000080001760                _gp = ALIGN (0x10)
+                0x0000000080001760                __got_start = .
+
+.got            0x0000000080001760       0x54
+ *(.got)
+ .got           0x0000000080001760       0x54 start.o
+                0x0000000080001760                _GLOBAL_OFFSET_TABLE_
+                0x00000000800017b4                __got_end = .
+                0x00000000800017b4                __u_boot_cmd_start = .
+
+.u_boot_cmd
+ *(.u_boot_cmd)
+                0x00000000800017b4                __u_boot_cmd_end = .
+                0x00000000800017b4                uboot_end_data = .
+                0x0000000000000015                num_got_entries = ((__got_end - __got_start) >> 0x2)
+                0x00000000800017b4                . = ALIGN (0x4)
+
+.sbss
+ *(.sbss)
+
+.bss            0x00000000800017c0       0xa0
+ *(.bss)
+ .bss           0x00000000800017c0        0x0 start.o
+ .bss           0x00000000800017c0       0x90 nand_boot_jz4750.o
+ .bss           0x0000000080001850        0x0 cpu.o
+ .bss           0x0000000080001850        0x0 jz4750.o
+ .bss           0x0000000080001850       0x10 jz_serial.o
+                0x0000000080001860                uboot_end = .
+
+.scommon        0x0000000080001860        0x8
+ .scommon       0x0000000080001860        0x8 nand_boot_jz4750.o
+                0x0000000080001860                NAND_ADDRPORT
+                0x0000000080001864                NAND_COMMPORT
+
+.rel.dyn        0x0000000080001868        0x0
+ .rel.dyn       0x0000000000000000        0x0 start.o
+Address of section .text set to 0x80000000
+LOAD start.o
+LOAD nand_boot_jz4750.o
+LOAD cpu.o
+LOAD jz4750.o
+LOAD jz_serial.o
+OUTPUT(/home/rrock/dev/vogue/uboot/nand_spl/u-boot-spl elf32-tradlittlemips)
+
+.pdr            0x0000000000000000      0x220
+ .pdr           0x0000000000000000        0x0 start.o
+ .pdr           0x0000000000000000       0x40 nand_boot_jz4750.o
+ .pdr           0x0000000000000040       0x60 cpu.o
+ .pdr           0x00000000000000a0       0xa0 jz4750.o
+ .pdr           0x0000000000000140       0xe0 jz_serial.o
+
+.debug_line     0x0000000000000000       0x4b
+ .debug_line    0x0000000000000000       0x4b start.o
+
+.debug_info     0x0000000000000000       0x60
+ .debug_info    0x0000000000000000       0x60 start.o
+
+.debug_abbrev   0x0000000000000000       0x14
+ .debug_abbrev  0x0000000000000000       0x14 start.o
+
+.debug_aranges  0x0000000000000000       0x20
+ .debug_aranges
+                0x0000000000000000       0x20 start.o
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 nand_boot_jz4750.o
+ .mdebug.abi32  0x0000000000000000        0x0 cpu.o
+ .mdebug.abi32  0x0000000000000000        0x0 jz4750.o
+ .mdebug.abi32  0x0000000000000000        0x0 jz_serial.o
+
+.debug_abbrev.1
+                0x0000000000000000      0x230
+ .debug_abbrev  0x0000000000000000      0x230 nand_boot_jz4750.o
+
+.debug_info.2   0x0000000000000000      0x77a
+ .debug_info    0x0000000000000000      0x77a nand_boot_jz4750.o
+
+.debug_line.3   0x0000000000000000      0x22d
+ .debug_line    0x0000000000000000      0x22d nand_boot_jz4750.o
+
+.debug_frame    0x0000000000000000      0x1c0
+ .debug_frame   0x0000000000000000       0x48 nand_boot_jz4750.o
+ .debug_frame   0x0000000000000048       0x48 cpu.o
+ .debug_frame   0x0000000000000090       0x88 jz4750.o
+ .debug_frame   0x0000000000000118       0xa8 jz_serial.o
+
+.debug_loc      0x0000000000000000      0x81c
+ .debug_loc     0x0000000000000000      0x4be nand_boot_jz4750.o
+ .debug_loc     0x00000000000004be       0x32 cpu.o
+ .debug_loc     0x00000000000004f0      0x206 jz4750.o
+ .debug_loc     0x00000000000006f6      0x126 jz_serial.o
+
+.debug_pubnames
+                0x0000000000000000      0x185
+ .debug_pubnames
+                0x0000000000000000       0x43 nand_boot_jz4750.o
+ .debug_pubnames
+                0x0000000000000043       0x50 cpu.o
+ .debug_pubnames
+                0x0000000000000093       0x6b jz4750.o
+ .debug_pubnames
+                0x00000000000000fe       0x87 jz_serial.o
+
+.debug_aranges.4
+                0x0000000000000000       0x20
+ .debug_aranges
+                0x0000000000000000       0x20 nand_boot_jz4750.o
+
+.debug_ranges   0x0000000000000000      0x250
+ .debug_ranges  0x0000000000000000      0x180 nand_boot_jz4750.o
+ .debug_ranges  0x0000000000000180       0x90 jz4750.o
+ .debug_ranges  0x0000000000000210       0x40 jz_serial.o
+
+.debug_str      0x0000000000000000      0x53d
+ .debug_str     0x0000000000000000      0x22a nand_boot_jz4750.o
+                                        0x273 (size before relaxing)
+ .debug_str     0x000000000000022a       0x38 cpu.o
+                                        0x107 (size before relaxing)
+ .debug_str     0x0000000000000262      0x1f3 jz4750.o
+                                        0x2db (size before relaxing)
+ .debug_str     0x0000000000000455       0xe8 jz_serial.o
+                                        0x1b2 (size before relaxing)
+
+.comment        0x0000000000000000       0x48
+ .comment       0x0000000000000000       0x12 nand_boot_jz4750.o
+ .comment       0x0000000000000012       0x12 cpu.o
+ .comment       0x0000000000000024       0x12 jz4750.o
+ .comment       0x0000000000000036       0x12 jz_serial.o
+
+.debug_abbrev.5
+                0x0000000000000000       0x94
+ .debug_abbrev  0x0000000000000000       0x94 cpu.o
+
+.debug_info.6   0x0000000000000000       0xfb
+ .debug_info    0x0000000000000000       0xfb cpu.o
+
+.debug_line.7   0x0000000000000000       0x82
+ .debug_line    0x0000000000000000       0x82 cpu.o
+
+.debug_aranges.8
+                0x0000000000000000       0x20
+ .debug_aranges
+                0x0000000000000000       0x20 cpu.o
+
+.debug_abbrev.9
+                0x0000000000000000      0x1d3
+ .debug_abbrev  0x0000000000000000      0x1d3 jz4750.o
+
+.debug_info.10  0x0000000000000000      0x690
+ .debug_info    0x0000000000000000      0x690 jz4750.o
+
+.debug_line.11  0x0000000000000000      0x25d
+ .debug_line    0x0000000000000000      0x25d jz4750.o
+
+.debug_aranges.12
+                0x0000000000000000       0x20
+ .debug_aranges
+                0x0000000000000000       0x20 jz4750.o
+
+.debug_abbrev.13
+                0x0000000000000000      0x14f
+ .debug_abbrev  0x0000000000000000      0x14f jz_serial.o
+
+.debug_info.14  0x0000000000000000      0x2d3
+ .debug_info    0x0000000000000000      0x2d3 jz_serial.o
+
+.debug_line.15  0x0000000000000000      0x108
+ .debug_line    0x0000000000000000      0x108 jz_serial.o
+
+.debug_aranges.16
+                0x0000000000000000       0x20
+ .debug_aranges
+                0x0000000000000000       0x20 jz_serial.o

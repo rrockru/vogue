@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=qipkg
+MimeType=application/ipkg
+Icon=Ipkg
+Name=Software Packages
+Name[ja]=ソフトウェアパッケージ
+Name[hu]=Csomag- kezelõ
+Name[de]=Software
+CanFastload=0

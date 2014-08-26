@@ -1,0 +1,17 @@
+source config/boot.cfg
+
+echo "Erasing all flash..."
+nerase 0 0 4096
+
+echo "Flashing loader..."
+nprogram 0 0 u-boot-nand.bin
+
+echo "Flashing kernel..."
+nprogram 0 2048 uImage
+
+echo "Flashing rootfs..."
+source config/rootfs.cfg
+nprogram_oob 0 4096 root.fs
+
+echo "---- All done ----"
+quit

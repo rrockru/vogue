@@ -1,0 +1,1 @@
+/home/rrock/dev/vogue/uboot/cpu/mips/start.S

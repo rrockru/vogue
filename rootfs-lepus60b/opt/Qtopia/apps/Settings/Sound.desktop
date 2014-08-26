@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=sound
+Icon=Sound
+Name=Sound
+Name[ja]=サウンド
+CanFastload=0

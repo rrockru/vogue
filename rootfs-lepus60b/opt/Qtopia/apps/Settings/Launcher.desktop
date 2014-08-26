@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=launchersettings
+Icon=launcher
+Name=Launcher
+Name[ja]=ランチャー
+CanFastload=0

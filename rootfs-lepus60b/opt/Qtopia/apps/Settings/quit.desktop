@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=shutdown
+Icon=Shutdown
+Name=Shutdown
+Name[ja]=シャットダウン
+Name[no]=Skru av
+Name[de]=Beenden
+Name[hu]=Leállítás
+CanFastload=0

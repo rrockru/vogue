@@ -1,0 +1,4 @@
+
+DRIVER=="musb_hdrc",ACTION=="remove", RUN+="/etc/udev/scripts/udc_hotplug.sh offline"
+DRIVER=="musb_hdrc",ACTION=="change", RUN+="/etc/udev/scripts/udc_hotplug.sh power"
+DRIVER=="musb_hdrc",ACTION=="add", RUN+="/etc/udev/scripts/udc_hotplug.sh online"

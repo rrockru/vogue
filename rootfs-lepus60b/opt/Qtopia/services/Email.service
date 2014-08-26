@@ -1,0 +1,9 @@
+[Service]
+Actions = writeMail();writeMail(QString,QString)
+Icon = EMail
+Name = Email
+Name[ja] = 電子メール
+[writeMail()]
+Icon = EMail
+Name = Compose Email
+Name[ja] = 電子メールの作成

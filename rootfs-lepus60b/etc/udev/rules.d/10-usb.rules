@@ -1,0 +1,3 @@
+# automount the usb card
+
+KERNEL=="sda[1-9]", RUN+="/etc/udev/scripts/usb.sh %k"

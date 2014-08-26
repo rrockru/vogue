@@ -1,0 +1,8 @@
+[Global]
+Name = Purple
+Name[ja] = 紫
+[Colors]
+Background = #F0D3FF
+Button = #E4B8FF
+Highlight = #B406FF
+HighlightedText = #FFFFFF

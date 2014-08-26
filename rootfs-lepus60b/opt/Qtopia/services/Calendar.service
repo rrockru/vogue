@@ -1,0 +1,13 @@
+[Service]
+Actions = raiseToday();newEvent();newEvent(QDataTime,QDataTime,QString,QString);addEvent(PimEvent);removeEvent(PimEvent);updateEvent(PimEvent);showEvent(QUuid);showEvent(QUuid,QDate)
+Icon = DateBook
+Name = Calendar
+Name[ja] = カレンダー
+[newEvent()]
+Icon = DateBook
+Name = New event
+Name[ja] = 新規イベント
+[raiseToday()]
+Icon = today
+Name = Today's calendar
+Name[ja] = 今日のカレンダー

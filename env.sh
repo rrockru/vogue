@@ -1,0 +1,11 @@
+export PATH=/opt/mipseltools-gcc412-lnx26/bin/:$PATH
+export ARCH=mips
+export CROSS_COMPILE=mipsel-linux-
+export CC=/opt/mipseltools-gcc412-lnx26/bin/mipsel-linux-gcc
+export NM=/opt/mipseltools-gcc412-lnx26/bin/mipsel-linux-nm
+export LD=/opt/mipseltools-gcc412-lnx26/bin/mipsel-linux-ld
+export CXX=/opt/mipseltools-gcc412-lnx26/bin/mipsel-linux-g++
+export RANLIB=/opt/mipseltools-gcc412-lnx26/bin/mipsel-linux-ranlib
+export AR=/opt/mipseltools-gcc412-lnx26/bin/mipsel-linux-ar
+export LDFLAGS=-L/home/rrock/dev/vogue/rootfs/usr/local/lib
+export CPPFLAGS=-I/home/rrock/dev/vogue/rootfs/usr/local/include

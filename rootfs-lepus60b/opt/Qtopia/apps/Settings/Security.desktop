@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=security
+Icon=Security
+Name=Security
+Name[ja]=セキュリティ
+Name[de]=Sicherheits einstellungen
+CanFastload=0

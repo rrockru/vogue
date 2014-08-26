@@ -1,0 +1,65 @@
+#!/bin/sh
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin:
+runlevel=S
+prevlevel=N
+export PATH runlevel prevlevel
+
+/bin/hostname RROCK_CLOCK
+
+export TERM=linux
+export TERMINFO=/usr/share/terminfo
+clear
+echo "---- /etc/init.d/rcS: Executing"
+echo "---- Welcome to RROCK_CLOCK"
+echo "---- Mounting /proc, /sys, /dev partitions..."
+mount -t proc /proc /proc
+mount -t sysfs sysfs /sys
+mount -t tmpfs tmpfs /dev
+echo "---- Making necessary nodes..."
+mkdir /dev/pts
+mount -t devpts devpts /dev/pts
+mknod /dev/systty c 4 0
+mknod /dev/tty c 5 0
+mknod /dev/ptmx c 5 2
+mknod /dev/tty0 c 4 0
+mknod /dev/tty1 c 4 1
+mknod /dev/tty2 c 4 2
+mknod /dev/tty3 c 4 3
+mknod /dev/tty4 c 4 4
+mknod /dev/tty5 c 4 5
+mknod /dev/tty6 c 4 6
+mknod /dev/tty7 c 4 7
+mknod /dev/tty8 c 4 8
+mknod /dev/tty9 c 4 9
+mknod /dev/tty10 c 4 10
+mknod /dev/tty11 c 4 11
+mknod /dev/tty12 c 4 12
+mknod /dev/ttyS0 c 4 64
+mknod /dev/ttyS1 c 4 65
+mknod /dev/ttyS2 c 4 66
+mknod /dev/ttyS3 c 4 67
+mknod /dev/random c 1 8
+mknod /dev/urandom c 1 9
+echo "---- Making nodes for platform devices..."
+mknod /dev/ts c 10 16
+mknod /dev/rtc c 10 135
+mknod /dev/audio c 14 4
+mknod /dev/eeprom c 238 71
+mknod /dev/i2c-0 c 89 0
+mknod /dev/tcsm c 238 73
+mknod /dev/fb0 c 29 0
+chown root -hR /dev
+
+echo
+echo "---- This box is `uname -a`"
+echo "---- Running `busybox | grep "BusyBox v1"`"
+echo "---- Battery status is: `cat /proc/jz/battery`."
+echo "---- `cat /proc/jz/cgm | grep Freq`"
+echo "---- XZ0032 Linux is ready to burn your JZ4725B down."
+echo "---- Visit http://groups.google.com/group/vogeeky"
+echo "---- http://vogeeky.co.cc"
+echo "---- /etc/rcS: All done, exiting..."
+echo 
+
+source /etc/profile
+/root/clock

@@ -1,0 +1,17 @@
+#export PS1='# '
+#export PS1=\[\u@ingenic\]\$
+PS1='[\u@\h \W]\# '
+
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin
+export PATH=$PATH:/usr/jz_mips/bin/
+export LD_LIBRARY_PATH=/lib:/usr/jz_mips/lib
+
+export TSLIB_ROOT=/usr/jz_mips/
+export TSLIB_CONSOLEDEVICE=none
+export TSLIB_FBDEVICE=/dev/fb
+export TSLIB_TSDEVICE=/dev/input/event0
+export TSLIB_CALIBFILE=/etc/pointercal
+export TSLIB_CONFFILE=$TSLIB_ROOT/etc/ts.conf
+export TSLIB_PLUGINDIR=$TSLIB_ROOT/lib/ts
+export SDL_MOUSEDRV=TSLIB
+export ALSA_CONFIG_PATH=/usr/alsa/share/alsa.conf

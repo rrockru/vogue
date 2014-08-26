@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=netsetup
+Icon=PPPConnect
+Type=Application
+Name=Network
+Name[ja]=ネットワーク
+Name[de]=Netzwerk
+CanFastload=0

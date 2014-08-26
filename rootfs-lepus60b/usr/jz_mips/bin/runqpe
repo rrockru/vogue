@@ -1,0 +1,17 @@
+#!/bin/sh
+
+QTOPIADIR=/opt/Qtopia
+
+export HOME=/root
+export QPEDIR=$QTOPIADIR
+export QTDIR=$QTOPIADIR
+export PATH=$QTDIR/bin:$PATH
+export LD_LIBRARY_PATH=$QTDIR/lib:$LD_LIBRARY_PATH
+ 
+
+#export QWS_SIZE=800x480
+#export QWS_MOUSE_PROTO=USB:/dev/input/mice
+export QWS_MOUSE_PROTO=TPanel:/dev/input/event0
+export QWS_KEYBOARD=TTY:/dev/tty0
+
+$QPEDIR/bin/qpe > /dev/null 2>&1

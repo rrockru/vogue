@@ -1,0 +1,10 @@
+[Desktop Entry]
+Comment=A Parachute Attack Game
+Exec=parashoot
+Icon=ParaShoot
+Type=Application
+Name=ParaShoot
+Name[ja]=パラシュート
+Name[no]=Fallskjerm
+Name[de]=Fallschirmjäger
+Name[hu]=Védd a bázist

@@ -1,0 +1,4 @@
+# automount the mmc/sd card
+
+ACTION=="add", KERNEL=="mmcblk[0-9]p[0-9]", RUN+="/etc/udev/scripts/mmc.sh %k"
+ACTION=="remove", KERNEL=="mmcblk[0-9]p[0-9]", RUN+="/etc/udev/scripts/mmc.sh %k"

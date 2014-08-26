@@ -1,0 +1,8 @@
+[Desktop Entry]
+Comment=Virtual Network Computing (VNC) Viewer
+Exec=keypebble
+Icon=vnc
+Type=Application
+Name=VNC Viewer
+Name[ja]=VNCビューワ
+CanFastload=0

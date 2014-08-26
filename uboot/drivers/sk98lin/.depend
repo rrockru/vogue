@@ -1,0 +1,75 @@
+skge.o: skge.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skaddr.o: skaddr.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skgehwt.o: skgehwt.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skgeinit.o: skgeinit.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skgepnmi.o: skgepnmi.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skgesirq.o: skgesirq.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+ski2c.o: ski2c.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+sklm80.o: sklm80.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skqueue.o: skqueue.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skrlmt.o: skrlmt.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+sktimer.o: sktimer.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skvpd.o: skvpd.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skxmac2.o: skxmac2.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+skcsum.o: skcsum.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+uboot_skb.o: uboot_skb.c /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h
+uboot_drv.o: uboot_drv.c /home/rrock/dev/vogue/uboot/include/common.h \
+  /home/rrock/dev/vogue/uboot/include/config.h \
+  /home/rrock/dev/vogue/uboot/include/configs/volans.h \
+  /home/rrock/dev/vogue/uboot/include/cmd_confdefs.h \
+  /home/rrock/dev/vogue/uboot/include/linux/bitops.h \
+  /home/rrock/dev/vogue/uboot/include/asm/bitops.h \
+  /home/rrock/dev/vogue/uboot/include/linux/types.h \
+  /home/rrock/dev/vogue/uboot/include/linux/config.h \
+  /home/rrock/dev/vogue/uboot/include/linux/posix_types.h \
+  /home/rrock/dev/vogue/uboot/include/linux/stddef.h \
+  /home/rrock/dev/vogue/uboot/include/asm/posix_types.h \
+  /home/rrock/dev/vogue/uboot/include/asm/types.h \
+  /home/rrock/dev/vogue/uboot/include/asm/byteorder.h \
+  /home/rrock/dev/vogue/uboot/include/linux/byteorder/little_endian.h \
+  /home/rrock/dev/vogue/uboot/include/linux/byteorder/swab.h \
+  /home/rrock/dev/vogue/uboot/include/linux/byteorder/generic.h \
+  /home/rrock/dev/vogue/uboot/include/asm/sgidefs.h \
+  /home/rrock/dev/vogue/uboot/include/asm/system.h \
+  /home/rrock/dev/vogue/uboot/include/asm/ptrace.h \
+  /home/rrock/dev/vogue/uboot/include/asm/isadep.h \
+  /home/rrock/dev/vogue/uboot/include/linux/string.h \
+  /home/rrock/dev/vogue/uboot/include/asm/string.h \
+  /opt/mipseltools-gcc412-lnx26/lib/gcc/mipsel-linux/4.1.2/include/stdarg.h \
+  /home/rrock/dev/vogue/uboot/include/part.h \
+  /home/rrock/dev/vogue/uboot/include/ide.h \
+  /home/rrock/dev/vogue/uboot/include/flash.h \
+  /home/rrock/dev/vogue/uboot/include/image.h \
+  /home/rrock/dev/vogue/uboot/include/asm/u-boot.h \
+  /home/rrock/dev/vogue/uboot/include/asm/global_data.h \
+  /home/rrock/dev/vogue/uboot/include/asm/regdef.h
